@@ -15,7 +15,6 @@ module.exports = (sequelize, Sequelize) => {
     },
     description: {
       type: Sequelize.STRING,
-      unique: true,
       allowNull: false,
     },
     created_by: {
